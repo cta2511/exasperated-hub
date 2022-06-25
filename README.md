@@ -267,3 +267,23 @@ Tab:Button{
 	Description = nil,
 	Callback = function() loadstring(game:HttpGet('https://pastebin.com/raw/hUSWsaE1'))() end
 }
+
+-- CREDITS
+
+GUI:Credit{
+	Name = "FeelingExasperated",
+	Description = "Creator, put the scripts here, and converted some to loadstring",
+	V3rm = "Vechu",
+	Discord = "goofy#9849"
+}
+
+GUI:Credit{
+	Name = "coppprer",
+	Description = "Creator of CoppaWare",
+	Discord = "allegedpeeder#6699"
+}
+
+GUI:Credit{
+	Name = "Padero",
+	Description = "Creator of CoffeeWare",
+}
