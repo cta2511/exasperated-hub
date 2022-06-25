@@ -119,6 +119,30 @@ Tab:Button{
 	Callback = function() loadstring(game:HttpGet('https://pastebin.com/raw/1dup3HSe'))() end
 }
 
+Tab:Button{
+	Name = "Nameless Animations",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/nameless-animations/main/README.md)'))() end
+}
+
+Tab:Button{
+	Name = "Hat Visualizer",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/xaxaxaxaxaxaxaxaxa/Ciazware/main/Hat-Visualizer)'))() end
+}
+
+Tab:Button{
+	Name = "Achromatic",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/achromatic/main/README.md'))() end
+}
+
+Tab:Button{
+	Name = "Hats-Spin-Around-You (CMD-List: https://controlc.com/b14decfd",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/achromatic/main/README.md'))() end
+}
+
 -- tabs:
 
 local Tab = GUI:Tab{
@@ -206,17 +230,26 @@ Tab:Button{
 	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua'))() end
 }
 
--- tabs:
-
-local Tab = GUI:Tab{
-	Name = "hubs-(COMING-SOON)",
-	Icon = "rbxassetid://8569322835"
+Tab:Button{
+	Name = "FE2 TAS Maker",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/SomeScripterInABasement/Fe2Tas/main/README.md'))() end
 }
 
--- buttons: 
+Tab:Button{
+	Name = "coffeeware",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/coffeeware-leaked-cracked/main/README.md'))() end
+}
 
 Tab:Button{
-	Name = "nothing here",
+	Name = "coppaware",
 	Description = nil,
-	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/test-1/main/README.md'))() end
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/coppaware-v1.0/main/README.md'))() end
+}
+
+Tab:Button{
+	Name = "fake-system-messages",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/fake-system-messages/main/README.md'))() end
 }
