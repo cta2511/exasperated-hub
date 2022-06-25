@@ -114,7 +114,7 @@ Tab:Button{
 }
 
 Tab:Button{
-	Name = "Parkour v2 (cmds: controlc.com/8b1445c1",
+	Name = "Parkour v2 (CMDS: controlc.com/8b1445c1)",
 	Description = nil,
 	Callback = function() loadstring(game:HttpGet('https://pastebin.com/raw/1dup3HSe'))() end
 }
@@ -138,7 +138,7 @@ Tab:Button{
 }
 
 Tab:Button{
-	Name = "Hats-Spin-Around-You (CMD-List: https://controlc.com/b14decfd",
+	Name = "Hats Spin Around You (CMDS: https://controlc.com/b14decfd)",
 	Description = nil,
 	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/achromatic/main/README.md'))() end
 }
@@ -237,19 +237,26 @@ Tab:Button{
 }
 
 Tab:Button{
-	Name = "coffeeware",
+	Name = "CoffeeWare",
 	Description = nil,
 	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/coffeeware-leaked-cracked/main/README.md'))() end
 }
 
 Tab:Button{
-	Name = "coppaware",
+	Name = "CoppaWare (Get Premium .gg/Up5R8SBEff",
 	Description = nil,
-	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/coppaware-v1.0/main/README.md'))() end
+	Callback = function() loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/youngchongosreal/coppaware/main/coppaware.lua"))()
+'))() end
 }
 
 Tab:Button{
-	Name = "fake-system-messages",
+	Name = "Fake System Messages",
 	Description = nil,
 	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/cta2511/fake-system-messages/main/README.md'))() end
+}
+
+Tab:Button{
+	Name = "Eclipse Hub",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://pastebin.com/raw/hUSWsaE1'))() end
 }
