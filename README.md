@@ -1,4 +1,11 @@
+-- antiban script:
+setfflag("DFStringCrashPadUploadToBacktraceToBacktraceBaseUrl", "")
+setfflag("DFIntCrashUploadToBacktracePercentage", "0")
+-- the rest of the hub:
+
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+-- GUI:
 
 local GUI = Mercury:Create{
     Name = "Mercury",
@@ -8,9 +15,9 @@ local GUI = Mercury:Create{
 }
 
 GUI:Notification{
-	Title = "Made by FeelingExasperated",
-	Text = "YT: exasperated",
-	Duration = 20,
+	Title = "Sub to Me",
+	Text = "https://www.youtube.com/channel/UCbzJZa8hKoYXYRAWvNIYUhg/videos",
+	Duration = 30,
 	Callback = function() end
 }
 
